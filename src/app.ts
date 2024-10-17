@@ -7,41 +7,40 @@ import { NeatConfig, NeatGradient } from "@firecms/neat";
 export const config: NeatConfig = {
     colors: [
         {
-            color: '#C4E1F6',
+            color: '#453A7F',
             enabled: true,
         },
         {
-            color: '#C4E1F6',
+            color: '#7469A9',
             enabled: true,
         },
         {
-            color: '#C4E1F6',
+            color: '#221854',
+            enabled: true,
+        },
+        {
+            color: '#AFA7D4',
             enabled: true,
         },
         {
             color: '#DDD6FE',
             enabled: true,
         },
-        {
-            color: '#361854',
-            enabled: true,
-        },
     ],
-    speed: 4,
-    horizontalPressure: 4,
-    verticalPressure: 3,
-    waveFrequencyX: 0,
-    waveFrequencyY: 0,
-    waveAmplitude: 0,
-    shadows: 2,
-    highlights: 7,
+    speed: 3,
+    horizontalPressure: 5,
+    verticalPressure: 5,
+    waveFrequencyX: 1,
+    waveFrequencyY: 1,
+    waveAmplitude: 5,
+    shadows: 10,
+    highlights: 3,
     colorBrightness: 1,
     colorSaturation: 8,
     wireframe: false,
     colorBlending: 5,
     backgroundColor: '#FF0000',
     backgroundAlpha: 1,
-    resolution: 0.5,
 };
 
 // Define an element with id="gradient" in your HTML
