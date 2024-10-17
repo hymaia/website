@@ -7,15 +7,15 @@ import { NeatConfig, NeatGradient } from "@firecms/neat";
 export const config: NeatConfig = {
     colors: [
         {
-            color: '#FF87A1',
+            color: '#C4E1F6',
             enabled: true,
         },
         {
-            color: '#231955',
+            color: '#C4E1F6',
             enabled: true,
         },
         {
-            color: '#7469A9',
+            color: '#C4E1F6',
             enabled: true,
         },
         {
